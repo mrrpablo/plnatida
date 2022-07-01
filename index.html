@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Plantida</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <p>plantinda</p>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="What are you looking for?">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>  
+        </div>
+        <div class="icons-right">
+             <i class="fa-solid fa-heart"></i>
+             <i class="fa-solid fa-cart-shopping"></i>
+             <i class="fa-solid fa-file"></i>
+             <i class="fa-solid fa-circle-user"></i>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="sidebar">
+            <h6>Category</h6>
+            <div class="category">
+                    <div class="item">
+                        <input type="checkbox" checked="checked">
+                    <p>Plant</p>
+                </div>
+                <div class="item">
+                        <input type="checkbox" >
+                    <p>Seeds</p>
+                </div>
+                <div class="item">
+                        <input type="checkbox" >
+                    <p>Bulbs</p>
+                </div>
+                <div class="item">
+                        <input type="checkbox" >
+                    <p>Succulents</p>
+                </div>
+                <div class="item">
+                        <input type="checkbox">
+                    <p>Flowers</p>
+                </div>
+                <div class="item">
+                        <input type="checkbox">
+                    <p>Coffee</p>
+                </div>
+            </div>
+
+            <div class="price">
+                <h3>Minimum price</h3>
+                <div class="input-slider" style="width: 70%;">
+                    <input type="range" id="price-slider" class="range" min="0" max="4" value="0">
+                </div>
+                <p>Value: 50</p>
+            </div>
+
+            <div class="rate">
+                <h3>Rating</h3>
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="top-content">
+                <div class="plant">
+                    <p>Search result for: Plant</p>
+                </div>
+            
+                <div class="sort">
+                    <div class="para">
+                        <p>Sort</p>
+                    </div>
+                    
+                    <div class="lines">
+                        <ul>
+                            <li>Relevance</li>
+                            <li>Popular</li>
+                            <li>New</li>
+                            <select><option value="Price">Price</option></select>
+                            <select><option value="Size">Size</option></select>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flowers-wrap">
+                <div class="flowers">
+                    <div class="image">
+                        <img src="/images/markus-clemens-mibjbNoS1XA-unsplash.jpg" alt="">
+                    </div>
+                    <div class="text">
+                             <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p>Php 0 - Php 1000 <span><i class="fa-solid fa-heart"></i></span></p>
+                            <p>Min order: 1 pc</p>
+                        </div>
+                </div>
+
+                <div class="flowers">
+                    <div class="image">
+                        <img src="/images/markus-clemens-mibjbNoS1XA-unsplash.jpg" alt="">
+                    </div>
+                    <div class="text">
+                             <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p>Php 0 - Php 1000 <span><i class="fa-solid fa-heart"></i></span></p>
+                            <p>Min order: 1 pc</p>
+                        </div>
+                </div>
+
+                <div class="flowers">
+                    <div class="image">
+                        <img src="/images/markus-clemens-mibjbNoS1XA-unsplash.jpg" alt="">
+                    </div>
+                    <div class="text">
+                             <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p>Php 0 - Php 1000 <span><i class="fa-solid fa-heart"></i></span></p>
+                            <p>Min order: 1 pc</p>
+                        </div>
+                </div>
+
+                <div class="flowers">
+                    <div class="image">
+                        <img src="/images/markus-clemens-mibjbNoS1XA-unsplash.jpg" alt="">
+                    </div>
+                    <div class="text">
+                             <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p>Php 0 - Php 1000 <span><i class="fa-solid fa-heart"></i></span></p>
+                            <p>Min order: 1 pc</p>
+                        </div>
+                </div>
+
+                <div class="flowers">
+                    <div class="image">
+                        <img src="/images/markus-clemens-mibjbNoS1XA-unsplash.jpg" alt="">
+                    </div>
+                    <div class="text">
+                             <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p>Php 0 - Php 1000 <span><i class="fa-solid fa-heart"></i></span></p>
+                            <p>Min order: 1 pc</p>
+                        </div>
+                </div>
+
+                <div class="flowers">
+                    <div class="image">
+                        <img src="/images/markus-clemens-mibjbNoS1XA-unsplash.jpg" alt="">
+                    </div>
+                    <div class="text">
+                             <p>Lorem ipsum dolor sit amet.</p>
+                            <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <p>Php 0 - Php 1000 <span><i class="fa-solid fa-heart"></i></span></p>
+                            <p>Min order: 1 pc</p>
+                        </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="footer">
+        <!-- <h4>Contact Us</h4> -->
+        <div class="left">
+            <p>plantinda</p>
+        </div>
+
+        <div class="middle">
+            <ul>
+                <li>Plot 55 Woro si Woro <br> Abuja, Nigeria</li>
+                <li>+234 701 963 1735</li>
+                <li>contact@plantinda</li>
+                <li>buy@plantinda</li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <ul>
+                <li>Accomodation</li>
+                <li>Gallery</li>
+                <li>Exhibition</li>
+                <li>Flowers</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
